@@ -1,0 +1,111 @@
+
+
+<HTML><HEAD><TITLE>Welcome to My Site</TITLE>
+
+<P align=center></P>
+
+<BODY bgColor=#99ccff link=#0000ff text=#000000 vLink=#800080>
+
+<P align=center><h1>Welcome to My Site </h1><IMG height=192 src="Sunset.jpg" 
+
+width=230></P>
+
+<A href="http://localhost:8500/CSC434WebDB/video.avi"> Click here to see Niagra Falls </A>
+
+<P align=center>
+
+
+<CENTER>
+<h1> View Theater List</h1>
+
+<A href="http://localhost:8500/CSC434WebDB/viewtheater.cfm">View Theater List</A></P>
+
+<P align=center>
+
+
+
+<h1> Find Theater:</h1>
+
+
+<FORM action=http://localhost:8500/CSC434WebDB/findtheater.cfm method=post>
+
+
+
+Theater Name:
+
+<input name=name>
+
+<input name=submit type=submit value="Find Theater">
+
+</form>
+
+
+
+<CENTER>
+<h1> Add Theater: </h1>
+
+
+<FORM action="http://localhost:8500/CSC434WebDB/addtheater.cfm" method="post">
+
+Theater Name:
+<input name="name" type="text" >
+ 
+Theater Street:
+<input name="street" type="text">
+
+Theater Max Capacity:
+<input name="max_seats" type="text">
+
+
+<INPUT type=submit value=Submit> 
+
+</FORM>
+
+
+<center>
+
+<h1> Delete Theater:</h1>
+
+
+<FORM action=http://localhost:8500/CSC434WebDB/deletetheater.cfm method=post> 
+
+
+
+Theater Name:
+
+<input name=name>
+
+<input name=submit type=submit value="Delete Theater">
+
+</form>
+
+
+
+<CENTER>
+<h1> Update Theater: </h1>
+
+
+<FORM action="http://localhost:8500/CSC434WebDB/updatefindtheater.cfm" method="post">
+
+
+
+Theater Name:
+
+<input name=name>
+
+<input name=submit type=submit value="Update Theater">
+
+</form>
+
+
+
+
+<P align=center></p>
+
+<P align=center><A href="http://localhost:8500/CSC434WebDB/SampleWebSite.htm">Back to Home</A></P>
+
+
+
+
+
+</BODY></HTML>
