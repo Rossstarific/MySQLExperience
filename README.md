@@ -16,3 +16,5 @@ query along with screenshots of their outputs.
 Ross Bollinger Database Proposal.docx: The proposal for the final project of the Database course. The objective of this project is to
 create a small database that is based around a real-world field that said database could be used in (possible topics given by the professor
 were things like health care, airlines, or banks). I have chosen to do a database for use by a professional theater.
+
+These files contain the SQL code for the database that I have fabricated as well as multiple queries I was required to make on said database as part of the final project. This also includes a write-up that explains the potential use for the database, as well as explanations for all of the entities within the database and their relationships.
